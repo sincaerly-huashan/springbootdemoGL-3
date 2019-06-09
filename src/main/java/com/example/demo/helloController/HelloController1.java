@@ -31,6 +31,7 @@ public class HelloController1 {
 	@ResponseBody
 	@RequestMapping("/hello1")
     public String hello(){
+		System.out.println("hello world quick!");
         return "hello world quick!";
     }
 	 
